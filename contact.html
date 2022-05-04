@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>contact</title>
+</head>
+<body>
+    <section id="navigation"> 
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MICHAELA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-sm-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav" >
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  <a class="nav-link" href="about.html">About me</a>
+                  <a class="nav-link" href="contact.html">Contact ME</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </section>
+        <div class="container text-white">
+            <div class="row text-black ">
+                <div class="col-12">
+                  <center><h2>Contact me</h2> </center> 
+
+                </div>
+              <div class="col-lg-6">
+                <img class= "border border-primary" src="./images/contact.png" class="rounded img-fluid " alt="images" width="530px" >
+              </div>
+              <div class="col-lg-6">
+                <div class="container bg-info w-80">
+                  <h2 class="display-2 text-center text-white">Please fill it in </h2>
+                  <form class="w-75 mx-auto m-5"action="https://formspree.io/f/mjvlpzqw"
+                  method="POST">
+                  <!-- name -->
+                  <div class="row my-4">
+                      <label for="name" class="col-md-2 col-form-label-lg">Name:</label>
+                  
+                  <div class="col-8">
+                      <input id="name" name="name" type="text" placeholder="enter your name" class="form-control">
+                  </div>
+                  </div>
+                  <!-- suname -->
+                  <div class="row my-2">
+                      <label for="surname" class="col-md-2 col-form-label-lg">Surname:</label>
+                  
+                  <div class="col-8">
+                      <input id="surname" name="surname" type="text" placeholder="enter your surname" class="form-control">
+                  </div>
+                  </div>
+                  <!-- AGE -->
+                  <div class="row my-2">
+                      <label for="age" class="col-md-2 col-form-label-lg">Age:</label>
+                  
+                  <div class="col-8">
+                      <input id="age" name="age" type="text" placeholder="enter your age" class="form-control">
+                  </div>
+                  </div>
+                  <!-- gender -->
+                  <div class="row my-2">
+                      <label for="gender" class="col-md-2 col-form-label-lg">Gender:</label>
+                  
+                  <div class="col-8">
+                      <span class="msm-3">Male</span> <input id="gender" name="gender" type="radio" required>
+                      <span class="msm-3">female</span> <input id="gender" name="gender" type="radio" required>
+                  </div>
+                  </div>
+                  <!-- subjects -->
+                  <div class="row my-2">
+                      <label for="subject" class="col-md-2 col-form-label-lg">Subject:</label>
+                  
+                  <div class="col-8">
+                      <select name="subject" id="subject" class="form-select">
+                          <option value="html5" selected>HTML 5</option>
+                          <option value="css3">CSS 3</option>
+                          <option value="javascript">Javascript</option>
+                          <option value="bootstrap">Bootstrap</option>
+                      </select>
+          
+                  </div>
+                  </div>
+                  <!-- message -->
+                  <div class="row my-2">
+                      <label for="message" class="col-md-2 col-form-label-lg">Message: </label>
+                      <div class="col-8 form-floating">
+                          <textarea name="message" id="message" class="h-100 w-100">
+                          </textarea>
+                      </div>
+                  </div>
+                  <!-- button -->
+                  <div class="row my-2">
+                      <label class="col-md-2 col-form-label-lg" ></label>
+                      <div class="col-8 mb-1">
+                          <input type="submit" value="Submit"
+                          class="btn btn-dark w-100">
+                      </div>
+                  </div>
+          
+          
+          
+                  </form>
+              </div>
+             
+            </div>
+            
+          </div>
+          <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright: 
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
